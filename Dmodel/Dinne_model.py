@@ -93,6 +93,6 @@ for dashed in range(2):
                 plt.loglog(nu[(index - 1) // 2 * 2+dashed], Tu[(index - 1) // 2 * 2+dashed], linestyle = 'dashed',  color = 'b', label = f'$T_u, K^2 =$ {K_sqr[dashed]}')
                 plt.loglog(nu[(index - 1) // 2 * 2+dashed], nt, color = 'g', linestyle = 'dashed',  label = f'$n_t, K^2 =$ {K_sqr[dashed]}')
                 plt.legend(fontsize = 8)
-
+                
 plt.tight_layout()
 plt.show()
